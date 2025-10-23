@@ -28,13 +28,13 @@ export default function About() {
     {
       year: "2024 - Present",
       title: "Information Systems & Technology",
-      place: "University of XYZ",
+      place: "Cakrawala University",
       desc: "Learning about software engineering, database management, and system design.",
     },
     {
       year: "2022 - 2024",
       title: "Arabic Language & Islamic Studies",
-      place: "Boarding School",
+      place: "Islamic School",
       desc: "Teaching Arabic and Islamic studies while handling online learning programs.",
     },
   ];
