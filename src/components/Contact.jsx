@@ -125,7 +125,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://instagram.com/usernamekamu"
+            href="https://github.com/khidhir-ziyan"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-500 transition"

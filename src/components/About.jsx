@@ -90,7 +90,6 @@ export default function About() {
         </div>
       </motion.div>
 
-      {/* EDUCATION TIMELINE */}
       <motion.div
         className="max-w-3xl w-full mx-auto px-6"
         initial={{ opacity: 0, y: 40 }}
