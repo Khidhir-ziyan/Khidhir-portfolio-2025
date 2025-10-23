@@ -26,13 +26,13 @@ export default function Header() {
       initial={{ y: -40, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 overflow-x-hidden ${
         isScrolled
           ? "bg-white/80 backdrop-blur-md shadow-sm"
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center min-w-0">
         {/* LOGO */}
         <a
           href="#hero"
@@ -85,7 +85,7 @@ export default function Header() {
                   <a
                     href={link.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-[#1F2937] hover:text-[#FB923C] font-medium text-lg transition-colors"
+                    className="text-[#1F2937] hover:text-[#FB923C] font-medium text-lg transition-colors text-center w-full px-4"
                   >
                     {link.name}
                   </a>

@@ -5,8 +5,10 @@
 @custom-variant dark (&:is(.dark *));
 
 *{
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
 }
+
+
 
 @theme {
   --color-grey-100: #f5f6f7;

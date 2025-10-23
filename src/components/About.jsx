@@ -109,7 +109,7 @@ export default function About() {
               whileHover={{ scale: 1.02 }}
               className="relative"
             >
-              <div className="absolute -left-[14px] top-1 w-4 h-4 bg-[#FB923C] rounded-full border-2 border-white shadow-sm"></div>
+              <div className="absolute -left-14px top-1 w-4 h-4 bg-[#FB923C] rounded-full border-2 border-white shadow-sm"></div>
               <div className="bg-white rounded-xl shadow-sm p-5 border border-orange-50 hover:shadow-md transition-all">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h4 className="text-lg font-semibold text-[#1F2937]">{edu.title}</h4>

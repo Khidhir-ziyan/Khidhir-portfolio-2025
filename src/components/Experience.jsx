@@ -26,8 +26,8 @@ const Experience = () => {
 
       {/* Timeline container */}
       <div className="relative max-w-4xl w-full">
-      
-        <div className="absolute left-4 top-0 bottom-0 w-[4px] bg-[#FDBA74] md:left-1/2 md:-translate-x-1/2 rounded-full"></div>
+
+        <div className="absolute left-4 top-0 bottom-0 w-4px bg-[#FDBA74] md:left-1/2 md:-translate-x-1/2 rounded-full"></div>
 
         <div className="space-y-16">
           {experiences.map((exp, index) => {
