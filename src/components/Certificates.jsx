@@ -35,7 +35,7 @@ export default function Certificates() {
           {/* Tombol kiri */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 md:-left-10 bg-white/80 hover:bg-orange-100 p-3 rounded-full shadow-md transition"
+            className="absolute left-4 md:left-0  bg-white/80 hover:bg-orange-100 p-3 rounded-full shadow-md transition z-10"
           >
             <ChevronLeft className="w-6 h-6 text-[#FB923C]" />
           </button>
@@ -66,7 +66,7 @@ export default function Certificates() {
           {/* Tombol kanan */}
           <button
             onClick={nextSlide}
-            className="absolute right-0 md:-right-10 bg-white/80 hover:bg-orange-100 p-3 rounded-full shadow-md transition"
+            className="absolute right-4 md:right-0  bg-white/80 hover:bg-orange-100 p-3 rounded-full shadow-md transition z-10"
           >
             <ChevronRight className="w-6 h-6 text-[#FB923C]" />
           </button>
